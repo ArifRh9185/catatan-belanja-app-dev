@@ -1,0 +1,16 @@
+{
+    "name": "Catatan Belanja Q",
+    "short_name": "Catatan Belanja",
+    "icons": [
+      {
+        "src": "logo-app.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "fullscreen": "yes",
+    "prefer_related_applications": false
+  }
+  
