@@ -34,7 +34,7 @@ export default function FilterList({ onAddItem}){
                 </select>   
                 <input className="rounded-xl px-2 text-sm md:text-lg box-border bg-transparent border border-slate-300  placeholder:text-yellow-300 focus:text-slate-900 focus:font-semibold"  type="text" value= {name} onChange={(e) => setName(e.target.value)}  placeholder="Nama Barang"/>
             </div>
-            <button className="md:border w-full  mx-1 md:w-auto border-slate-300 md:rounded-xl px-3 text-lg bg-green-800 hover:bg-green-900 text-white font-semibold">Tambah ✅</button>
+            <button className="md:border w-full  mx-1 md:w-auto border-slate-300 md:rounded-xl px-3 text-lg bg-green-800 hover:bg-green-900 text-white font-semibold ">Tambah ✅</button>
             </form>
         </div>
         

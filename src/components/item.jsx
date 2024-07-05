@@ -7,7 +7,7 @@ export default function Item({item, onClearItem, onToggleCheck}){
                 checked={item.checked}
                 onChange={() => onToggleCheck(item.id)}
                 />
-            <span style={item.checked ? {textDecoration:'line-through'} : {}}>{item.quantity} {item.name}</span>
+            <span style={item.checked ? {backgroundColor:"red"} : {}}>{item.quantity} {item.name}</span>
             <button onClick={() => onClearItem(item.id)}>⛔</button>
         </li>
     )

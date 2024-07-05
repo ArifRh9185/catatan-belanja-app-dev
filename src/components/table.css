@@ -1,0 +1,16 @@
+table {
+      border-collapse: collapse;
+    }
+
+    td{
+      border: 1px solid #405D72;
+      text-align: center;
+      padding:5px;
+      max-width:24rem;
+      height:auto;
+    }
+
+
+    th {
+      background-color: #f2f2f2;
+    }
